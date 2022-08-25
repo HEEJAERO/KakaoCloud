@@ -45,6 +45,7 @@ function Circle(radius){
         return 2*this.radius;
     }
 }
+
 const circle = Circle(5); // this 가 전역객체를 가르킴 => 
 console.log(radius);  // 5 출력
 console.log(circle); //undefined

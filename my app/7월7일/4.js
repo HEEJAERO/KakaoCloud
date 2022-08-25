@@ -17,6 +17,6 @@ me.sayHello(); // this => 해당 instance (me 객체 )
 me.sayHello = function(){
     console.log(`Hello ${this.name}`);
 }; 
-// 만약 overriding이 발생하면 이 발생된 overriding 에 의해서 
+// 만약 overriding 이 발생하면 이 발생된 overriding 에 의해서
 // 숨겨진 prototype 메소드를 property shadowing 되었다고 한다
 me.sayHello();

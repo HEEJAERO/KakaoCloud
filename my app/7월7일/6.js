@@ -12,3 +12,4 @@ const parent = {
 Object.setPrototypeOf(me,parent);
 
 console.log(me.__proto__ === Person.prototype); // false
+// 이런식으로 상위 프로토타입을 바꾸는것도 가능하다( 상속관계를 동적으로 변경)

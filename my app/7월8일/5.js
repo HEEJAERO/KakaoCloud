@@ -16,7 +16,7 @@ const person ={
 // person.firstName = '연아';
 // person.lastName = '김';
 
-// setter(메서드-접근자property) 를 통해 접근하는것이 좋다 => 해당 메서드에 유효성검사를 추가하면 이상한 값이 해당 데이터를 오염시키는것을 방지할 수 있다.
+// setter(메서드-접근자 property) 를 통해 접근하는것이 좋다 => 해당 메서드에 유효성검사를 추가하면 이상한 값이 해당 데이터를 오염시키는것을 방지할 수 있다.
 person.fullName = '김 연아'; //set 호출
 //console.log(person.fullName()); 특이하게 getter(접근자 프로퍼티)는 이런식으로 사용하는것이 아니라
 console.log(person.fullName); // get 호출
